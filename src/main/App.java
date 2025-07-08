@@ -42,12 +42,13 @@ public class App {
             }
             System.out.println();
         }
-
         // === Ejercicio 04: Profundidad máxima ===
         Depth depthCalc = new Depth();
         int profundidad = depthCalc.maxDepth(root);
         System.out.println("Profundidad máxima del árbol original: " + profundidad);
-        
+    
+
+        System.out.println("PROBANDO");
     }
 
 }
